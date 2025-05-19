@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex’s Digital Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-indigo-700 text-white p-6 text-center shadow-md">
+    <h1 class="text-4xl font-extrabold tracking-tight">Hi, I'm Dimesh Mali 👋</h1>
+    <p class="text-lg mt-2">Creative Developer | Dreamer | Lifelong Learner</p>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="flex justify-center space-x-8 bg-white shadow sticky top-0 z-10 p-4">
+    <a href="#intro" class="nav-link">Intro</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#fun" class="nav-link">Fun Stuff</a>
+  </nav>
+
+  <!-- Introduction -->
+  <section id="intro" class="p-10 text-center bg-gradient-to-b from-white to-slate-100">
+    <img src="photo.jpg" alt="Alex Portrait" class="mx-auto w-60 h-80 object-cover rounded-xl mb-6 shadow-lg border" />
+    <video controls class="mx-auto w-full max-w-lg rounded-xl shadow-lg">
+      <source src="intro.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p class="text-xl mt-6 max-w-xl mx-auto">I’m a passionate full-stack developer from Berlin, obsessed with crafting intuitive user experiences and experimenting with new tech. I blend code, design, and curiosity to build things that make a difference.</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="p-10 bg-white">
+    <h2 class="section-title">🚀 Recent Projects</h2>
+    <ul class="space-y-3 text-left max-w-2xl mx-auto">
+      <li>🧭 <strong>CityExplorer</strong> – A travel planner powered by AI recommendations.</li>
+      <li>🦠 <strong>COVID-19 Heatmap</strong> – Real-time global visualizer built using D3.js.</li>
+      <li>📚 <strong>BookVerse</strong> – Social library app for sharing and reviewing reads.</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="p-10 bg-slate-50">
+    <h2 class="section-title">🛠️ Skills & Tools</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-lg font-medium">
+      <div class="bg-white shadow rounded-xl p-4">JavaScript</div>
+      <div class="bg-white shadow rounded-xl p-4">React</div>
+      <div class="bg-white shadow rounded-xl p-4">Tailwind CSS</div>
+      <div class="bg-white shadow rounded-xl p-4">Node.js</div>
+      <div class="bg-white shadow rounded-xl p-4">Firebase</div>
+      <div class="bg-white shadow rounded-xl p-4">MongoDB</div>
+      <div class="bg-white shadow rounded-xl p-4">Figma</div>
+      <div class="bg-white shadow rounded-xl p-4">Git/GitHub</div>
+    </div>
+  </section>
+
+  <!-- Fun Side -->
+  <section id="fun" class="p-10 bg-white">
+    <h2 class="section-title">🎨 The Fun Side</h2>
+    
+    <h3 class="section-subtitle">🎧 Currently Vibing To</h3>
+    <p>Lo-fi beats and synthwave while coding in the dark mode universe.</p>
+
+    <h3 class="section-subtitle">📖 Reading Now</h3>
+    <p><em>“Deep Work”</em> by Cal Newport — mastering focus in a distracted world.</p>
+
+    <h3 class="section-subtitle">🌟 Random Fact</h3>
+    <p>I once built a robot that chased lasers. True story.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-700 text-white text-center p-6 mt-4">
+    <p>&copy; 2025 Alex’s Digital Hub</p>
+    <p>Let’s connect: <a href="https://github.com/alexdevhub" class="underline text-sky-300">GitHub</a> | <a href="mailto:alex@devmail.com" class="underline text-sky-300">Email</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
