@@ -2,35 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dimesh Mali</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dimesh's Digital Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans">
+<body class="bg-gray-50 text-gray-800 font-sans">
 
   <!-- Header -->
-  <header class="bg-indigo-700 text-white p-6 text-center shadow-md">
-    <h1 class="text-4xl font-extrabold tracking-tight">Hi, I'm Dimesh Mali 👋</h1>
-    <p class="text-lg mt-2">Creative Developer | Dreamer | Lifelong Learner</p>
+  <header class="bg-indigo-700 text-white text-center p-6">
+    <h1 class="text-xl font-bold">Creative Developer | Dreamer | Lifelong Learner</h1>
+    <nav class="mt-4">
+      <a href="#" class="mx-4 hover:underline">Intro</a>
+      <a href="#" class="mx-4 hover:underline">Projects</a>
+      <a href="#" class="mx-4 hover:underline">Skills</a>
+      <a href="#" class="mx-4 hover:underline">Fun Stuff</a>
+    </nav>
   </header>
 
-  <!-- Navbar -->
-  <nav class="flex justify-center space-x-8 bg-white shadow sticky top-0 z-10 p-4">
-    <a href="#intro" class="nav-link">Intro</a>
-    <a href="#projects" class="nav-link">Projects</a>
-    <a href="#skills" class="nav-link">Skills</a>
-    <a href="#fun" class="nav-link">Fun Stuff</a>
-  </nav>
+  <!-- Main content -->
+  <main class="max-w-md mx-auto mt-6 p-4 space-y-6">
 
-  <!-- Introduction -->
-  <section id="intro" class="p-10 text-center bg-gradient-to-b from-white to-slate-100">
-    <img src="photo.jpg" 
-         alt="Dimesh Portrait" 
-         class="mx-auto w-60 h-80 object-cover object-top rounded-xl mb-6 shadow-lg border" />
+    <!-- Profile Image -->
+    <img src="profile.jpg" alt="Dimesh's Profile" class="rounded-lg w-full shadow-md"/>
 
-    <div class="aspect-w-16 aspect-h-9 mx-auto w-full max-w-3xl rounded-xl overflow-hidden shadow-lg">
-      <iframe width="853" height="480" src="https://www.youtube.com/embed/Zf2RzRgD3t8" title="BE FEARLESS - Motivational Video By Sandeep Maheshwari" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+    <!-- Audio Section -->
+    <audio controls class="w-full mt-4">
+      <source src="#" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
 
-    <p class="text-xl mt-6 max-w-xl mx
+    <!-- Intro -->
+    <p class="mt-4 text-lg">
+      I’m <strong>Dimesh</strong>, a passionate full-stack developer from Berlin, obsessed with crafting intuitive user experiences and experimenting with new tech. I blend code, design, and curiosity to build things that make a difference.
+    </p>
+
+    <!-- Projects Section -->
+    <section>
+      <h2 class="text-xl font-semibold mb-2">🚀 Recent Projects</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li><strong>CityExplorer</strong> – A travel planner powered by AI recommendations.</li>
+        <li><strong>COVID-19 Heatmap</strong> – Real-time global visualizer built using D3.js.</li>
+        <li><strong>BookVerse</strong> – Social library app for sharing and reviewing reads.</li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+      <h2 class="text-xl font-semibold mb-2">🛠️ Skills & Tools</h2>
+      <div class="grid grid-cols-2 gap-2">
+        <span class="bg-gray-200 px-3 py-1 rounded">JavaScript</span>
+        <span class="bg-gray-200 px-3 py-1 rounded">React</span>
+        <span class="bg-gray-200 px-3 py-1 rounded">Tailwind CSS</span>
+        <span class="bg-gray-200 px-3 py-1 rounded">Node.js</span>
+        <span class="bg-gray-200 px-3 py-1 rounded">Firebase</span>
+        <span class="bg-gray-200 px-3 py-1 rounded">MongoDB</span>
+        <span class="bg-gray-200 px-3 py-1 rounded">Figma</span>
+        <span class="bg-gray-200 px-3 py-1 rounded">Git/GitHub</span>
+      </div>
+    </section>
+
+    <!-- Fun Section -->
+    <section>
+      <h2 class="text-xl font-semibold mb-2">🎨 The Fun Side</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li>🎧 Currently vibing to lo-fi beats and synthwave while coding in the dark mode universe.</li>
+        <li>📖 Reading Now: <em>"Deep Work"</em> by Cal Newport – mastering focus in a distracted world.</li>
+        <li>🌟 Random Fact: I once built a robot that chased lasers. True story.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-700 text-white text-center p-4 mt-10">
+    <p>© 2025 Dimesh’s Digital Hub</p>
+    <p>Let’s connect: 
+      <a href="https://github.com/dimeshmali" class="underline" target="_blank">GitHub</a> | 
+      <a href="mailto:youremail@example.com" class="underline">Email</a>
+    </p>
+  </footer>
+
+</body>
+</html>
