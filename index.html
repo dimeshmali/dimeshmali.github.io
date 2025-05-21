@@ -1,93 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vikram's Portfolio</title>
 </head>
 <body>
-    <nav class="navbar">
+
+  <nav>
     <ul>
-        <li><a href="#welcome">Welcome</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#goals">Future Goals</a></li>
-        <li><a href="#personal">Personal Side</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <li><a href="#welcome">Welcome</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#goals">Future Goals</a></li>
+      <li><a href="#personal">Personal Side</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-</nav>
+  </nav>
 
+  <hr>
 
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p><strong>Hi, I'm Dimesh Mali</strong>. Explore my journey and aspirations!</p>
+  </header>
 
-    <div class="container">
-        <header class="hero">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm dimesh mali. Explore my journey and aspirations!</p>
-        </header>
+  <section id="welcome">
+    <h2>Welcome</h2>
+    <img src="your-photo.jpeg" alt="Your Photo" width="200">
+    <br><br>
+    <iframe width="300" height="300" src="https://www.youtube.com/embed/h6vDPKtk804" 
+      title="Motivational Video" frameborder="0" allowfullscreen></iframe>
+  </section>
 
-        <section id="welcome" class="section">
-            <h2>Welcome</h2>
-            <div class="media">
-                <img src="your-photo.jpg" alt="Your Photo" class="profile-photo width="250" height="200"">
-                <iframe width="600" height="300" src="https://www.youtube.com/embed/fLeJJPxua3E" title="Best Short Motivational Speech Video - 24 HOURS - 1-Minute Motivation #2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        
+  <hr>
 
+  <section id="about">
+    <h2>About Me</h2>
+    <p><strong>Name:</strong> Dimesh Mali</p>
+    <p><strong>Location:</strong> Satpati</p>
+    <p><strong>Education:</strong> ST. John College Of Engineering & Management, Computer Engineering</p>
+    <p><strong>Languages Known:</strong> C, Python, C++</p>
+  </section>
 
+  <hr>
 
-            </div>
-        </section>
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Made multiple apps in AR/VR and Android</li>
+      <li>Completed an internship in AR and VR</li>
+    </ul>
+  </section>
 
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <p><strong>Name:</strong> Dimesh Mali</p>
-            <p><strong>Location:</strong> satpati</p>
-            <p><strong>Education:</strong> ST. John College Of Engineering & management Branch is computer Engineering</p>
-            <p><strong>Languages Known:</strong> c  python c++ language</p>
-        </section>
+  <hr>
 
-        <section id="achievements" class="section">
-            <h2>Achievements</h2>
-            <ul>
-                <li>made multiple apps on AR/VR and android app development</li>
-                <li>Internship of AR and VR</li>
-                
-            </ul>
-        </section>
+  <section id="goals">
+    <h2>Future Goals</h2>
+    <p>I want to become a software developer.</p>
+  </section>
 
-        <section id="goals" class="section">
-            <h2>Future Goals</h2>
-            <p>I want to become a software engineer.</p>
-        </section>
+  <hr>
 
-        <section id="personal" class="section">
-            <h2>Personal Side</h2>
-            <p><strong>Hobbies:</strong> Learning new things and reading book.</p>
-            <p><strong>Role Models:</strong> Virat Kholi</p>
-            <p><strong>Favorite Books:</strong> The power of subconscious</p>
-            <p><strong>Favorite Websites/Startups:</strong> wix studio</p>
-            <p><strong>Volunteering Experience:</strong> Not done</p>
-        </section>
-<section id="contact" class="section">
+  <section id="personal">
+    <h2>Personal Side</h2>
+    <p><strong>Hobbies:</strong> Learning new things</p>
+    <p><strong>Role Model:</strong> Dimesh Mali</p>
+    <p><strong>Favorite Book:</strong> Rich Dad Poor Dad</p>
+    <p><strong>Favorite Tool:</strong> chatgpt</p>
+    <p><strong>Volunteering:</strong> Fresher</p>
+  </section>
+
+  <hr>
+
+  <section id="contact">
     <h2>Contact Me</h2>
+    <iframe width="300" height="200" src="https://www.google.com/maps?q=Palghar,+Maharashtra,+India&output=embed"></iframe>
+    
     <form action="https://formspree.io/f/xkgrevyy" method="POST">
-        <label for="email">Your Email:</label><br>
-        <input type="email" name="email" id="email" required><br><br>
+      <p><strong>Your Email:</strong></p>
+      <textarea name="email" rows="1" required>dimeshmali5@gmail.com</textarea><br><br>
 
-        <label for="message">Your Message:</label><br>
-        <textarea name="message" id="message" rows="5" required></textarea><br><br>
+      <p><strong>Your Message:</strong></p>
+      <textarea name="message" rows="5" required>
+Be a good programmer. Always think good and implement great. Never give up!
+      </textarea><br><br>
 
-        <!-- You can add more form fields here if needed -->
-
-        <button type="submit">Send</button>
+      <button type="submit">Send</button>
     </form>
-</section>
+  </section>
 
+  <hr>
 
+  <footer>
+    <p>
+      <strong>Gmail:</strong> 
+      <a href="mailto:dimeshmali5@gmail.com">dimeshmali5@gmail.com</a><br>
+      <strong>WhatsApp:</strong> 
+      <a href="https://wa.me/918446183051">8446183051</a>
+    </p>
+  </footer>
 
-        <footer class="footer">
-            <p>Contact me at <a href="mailto:dimeshmali5@gamil.com">dimeshmali5@gmail.com</a></p>
-        </footer>
-    </div>
 </body>
 </html>
+
